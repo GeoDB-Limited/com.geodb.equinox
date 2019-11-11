@@ -3,7 +3,7 @@
 source ./env
 
 (
-echo "open localhost 5555"
+echo "open localhost $PORT"
 sleep 2
 echo "shutdown"
 sleep 2
