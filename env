@@ -1,0 +1,5 @@
+PORT=5555
+FILE=EclipseRT.tar.gz
+SOURCE_FOLDER=rt
+TARGET_FOLDER=equinox
+
