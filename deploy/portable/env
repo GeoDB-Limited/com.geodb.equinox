@@ -1,0 +1,5 @@
+PORT=50002
+FILE=EclipseRT.tar.gz
+SOURCE_FOLDER=rt
+TARGET_FOLDER=deploy
+
