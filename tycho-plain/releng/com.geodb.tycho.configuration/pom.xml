@@ -18,20 +18,6 @@
 				<version>${tycho.version}</version>
 				<extensions>true</extensions>
 			</plugin>
-
-			<plugin>
-				<groupId>org.eclipse.tycho</groupId>
-				<artifactId>tycho-packaging-plugin</artifactId>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<id>package-feature</id>
-						<configuration>
-							<finalName>${project.artifactId}_${unqualifiedVersion}.${buildQualifier}</finalName>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 	</build>
 </project>
