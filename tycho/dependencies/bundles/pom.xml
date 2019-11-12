@@ -1,0 +1,17 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.geodb.tycho</groupId>
+	<artifactId>com.geodb.tycho.bundles</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.geodb.tycho</groupId>
+		<artifactId>com.geodb.tycho.root</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<modules>
+		<module>com.geodb.tycho.activator</module>
+	</modules>
+</project>
